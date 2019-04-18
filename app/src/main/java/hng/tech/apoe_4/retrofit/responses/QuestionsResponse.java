@@ -1,8 +1,10 @@
 package hng.tech.apoe_4.retrofit.responses;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class QuestionsResponse {
+public class QuestionsResponse implements Serializable {
+
     private String text;
     private List<String> answers;
 
